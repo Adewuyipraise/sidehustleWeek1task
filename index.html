@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Rasheed Week 1 Task</title>
+
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightcyan;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+ }
+
+
+ 
+
+</style>
+
+</head>
+<body>
+
+    <h1>Rasheed week 1 Task side Hustle 7.0</h1>
+    <form onsubmit="alert('Your response has been recorded')" method="get">
+        <div class="imgcontainer">
+          <h2>Biodata Form</h2>
+          <p>Fill In the Fields Correctly</p>
+        </div>
+    
+        <div class="container">
+          <p><label for="fname"><b>Fullname</b></label>
+          <input type="text" placeholder="Enter Fullname" name="fname" required></p>
+    
+          <p><label for="email"><b>E-mail</b></label>
+          <input type="email" placeholder="example@mail.com" name="email" required></p>
+    
+          <p><label for="number"><b>Phone Number</b></label>
+          <input type="tel" placeholder="0901-234-5678" name="number" maxlength=20 required></p>
+    
+         <p><input type="radio" name="Gender"> Male
+          <input type="radio" name="Gender"> Female</p>
+    
+          <p><label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required></p>
+            
+          <button type="submit">Submit</button>
+        </div>  
+     </form>
+
+</body>
+</html>
